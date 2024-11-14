@@ -16,5 +16,25 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 ```bash
     python3 code-redis.py
 ```
-### **2. MongoDB**
-- Commandes pour démarrer MongoDB
+
+## **Mise en place de MongoDB avec Docker**
+
+### **Installation de Docker**
+Assurez-vous que Docker est installé sur votre machine.
+
+- [Guide d'installation Docker](https://docs.docker.com/get-docker/)
+
+### **Lancement de MongoDB via Docker**
+
+Exécutez les commandes suivantes pour créer et démarrer un conteneur MongoDB :
+
+```bash
+# Télécharger l'image MongoDB
+docker pull mongo:latest
+
+# Créer le conteneur et démarre immédiatement
+docker run --name mongodb -d -p 27017:27017 mongo:latest
+
+# Si le conteneur déjà créer
+docker start mongodb
+```
