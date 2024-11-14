@@ -6,7 +6,7 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 
 ## **Prérequis**
 
-### **1. Redis**
+### **Redis**
 - Commandes pour démarrer Redis sur le port spécifique:
   ```bash
     redis-cli -p 6380
@@ -38,3 +38,14 @@ docker run --name mongodb -d -p 27017:27017 mongo:latest
 # Si le conteneur déjà créer
 docker start mongodb
 ```
+### **Exécution du script **code-mongo.py** **
+- Vérifiez que MongoDB fonctionne correctement en utilisant Docker :
+```bash
+    docker ps
+```
+- Une fois MongoDB actif, exécutez le script :
+```bash
+    python3 code-mongo.py
+```
+
+
