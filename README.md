@@ -8,7 +8,8 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 
 ### Installation des fichiers requis
 
-- [Fichier texte utilisés](https://drive.google.com/file/d/1wukMVw9QaViaCyQZZDVbe_3hdcvOv2Eq/view)
+- [Fichier texte](https://drive.google.com/file/d/1wukMVw9QaViaCyQZZDVbe_3hdcvOv2Eq/view)
+- [Fichier csv](http://rali.iro.umontreal.ca/DEM//DEM-1_1.csv)
 
 ### **Redis**
 - Commandes pour démarrer Redis sur le port spécifique:
