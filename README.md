@@ -6,6 +6,9 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 
 ## **Prérequis**
 
+### Installation des fichiers requis
+
+
 ### **Redis**
 - Commandes pour démarrer Redis sur le port spécifique:
   ```bash
