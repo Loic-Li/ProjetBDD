@@ -47,3 +47,19 @@ docker start mongodb
 ```bash
     python3 code-mongo.py
 ```
+
+### **Filtres de Bloom**
+- Redis BloomFilter est également installer avec docker
+```bash
+    # Création du conteneur de redis bloom
+    docker run -d --name redis-bloom -p 6381:6381 redislabs/rebloom:latest
+
+    # Lancement si déjà créer
+    docker start redis-bloom
+```
+
+### Exécution du script **Bloom.py**
+
+```bash
+    python3 Bloom.py
+```
