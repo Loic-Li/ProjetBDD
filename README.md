@@ -7,10 +7,14 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 ## **Prérequis**
 
 ### **1. Redis**
-- Version : ≥ 6.x
-- Modules nécessaires : RedisBloom pour le filtre de Bloom.
-- Commandes pour démarrer les instances Redis :
+- Commandes pour démarrer Redis sur le port spécifique:
   ```bash
     redis-cli -p 6380
   ```
-Test
+- Pour lancer le script **code-redis.py**:
+    - S'assurer d'être dans dans le répertoire du projet
+```bash
+    python3 code-redis.py
+```
+### **2. MongoDB**
+- Commandes pour démarrer MongoDB
