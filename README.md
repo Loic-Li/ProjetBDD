@@ -38,7 +38,7 @@ docker run --name mongodb -d -p 27017:27017 mongo:latest
 # Si le conteneur déjà créer
 docker start mongodb
 ```
-### **Exécution du script **code-mongo.py****
+### **Exécution du script code-mongo.py**
 - Vérifiez que MongoDB fonctionne correctement en utilisant Docker :
 ```bash
     docker ps
