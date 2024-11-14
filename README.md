@@ -12,3 +12,5 @@ Ce projet implémente des scripts Python pour gérer des données aériennes en 
 - Commandes pour démarrer les instances Redis :
   ```bash
     redis-cli -p 6380
+  ```
+Test
